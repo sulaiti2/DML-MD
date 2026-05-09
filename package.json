@@ -8,13 +8,13 @@
     "prestart": "node patch-baileys.js"
   },
   "engines": {
-    "node": "20.x"
+    "node": ">=20"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "latest",
     "@hapi/boom": "^10.0.1",
     "@vitalets/google-translate-api": "^9.2.0",
-    "@whiskeysockets/baileys": "github:DAUDY17/Dml-Baileys1.git",
+    "@whiskeysockets/baileys": "github:MLILA17/Dml-Baileys.git",
     "acrcloud": "^1.2.0",
     "awesome-phonenumber": "^6.2.0",
     "axios": "latest",
@@ -26,21 +26,23 @@
     "google-tts-api": "^2.0.2",
     "human-readable": "^0.2.1",
     "jimp": "latest",
-    "javascript-obfuscator": "latest",
     "luxon": "^3.5.0",
+    "javascript-obfuscator": "latest",
     "moment-timezone": "^0.5.46",
     "node-fetch": "^2.7.0",
     "node-webpmux": "^3.1.7",
     "performance-now": "^2.1.0",
-    "pg": "^8.13.3",
     "pino": "^8.19.0",
     "qrcode": "^1.5.4",
     "wa-sticker-formatter": "^4.4.4",
     "wikipedia": "^2.1.2",
-    "yt-search": "^2.10.4"
+    "yt-search": "^2.10.4",
+    "pg": "^8.13.3"
   },
   "optionalDependencies": {
+    "bufferutil": "^4.0.8",
     "better-sqlite3": "^12.8.0",
-    "bufferutil": "^4.0.8"
+    "canvas": "^2.11.2",
+    "canvacord": "^5.4.10"
   }
 }
