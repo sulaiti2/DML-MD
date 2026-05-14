@@ -12,7 +12,7 @@
 ### 🔹 Step 2: One-Click Deployment
 🚀 Choose your deployment platform
 
-[![Deploy](https://dashboard.heroku.com/new?template=https://github.com/MLILA17/DML-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MLILA17/DML-MD)
  
 </a>
 
